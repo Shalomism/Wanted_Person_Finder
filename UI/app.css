@@ -1,0 +1,117 @@
+.card-wrapper {
+    margin: 5% 0;
+  }
+  
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 10vw; /* note i used vw not px for better responsive */
+  height: 10vw;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ff1852;
+  color: white;
+}
+
+.dz-message {
+  font-size: 1.2rem;
+  color: #666;
+  padding: 2em;
+  border: 2px dashed #00aaff;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.dz-message:hover {
+  background-color: #e6f7ff;
+}
+.card-wrapper {
+  margin-bottom: 2em;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-wrapper:hover {
+  transform: scale(1.03);
+}
+
+.custom-circle-image {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #00aaff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#classTable {
+  font-size: 0.95rem;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+#classTable th, #classTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#classTable tr:hover {
+  background-color: #eef;
+}
+
+#classTable th {
+  background-color: #00aaff;
+  color: white;
+}
+.error {
+  display: none;
+  background-color: #ffe6e6;
+  color: #a00;
+  border: 1px solid #f5c2c2;
+  padding: 1em;
+  border-radius: 6px;
+  margin-top: 1em;
+}
